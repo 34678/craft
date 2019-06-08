@@ -1,7 +1,7 @@
 {
-  "name": "craft",
+  "name": "@craftser/craft",
   "version": "0.0.0",
-  "main": "src/index.js",
+  "main": "bin/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/craftser/craft.git"
