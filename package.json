@@ -49,6 +49,7 @@
     }
   },
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^6.3.1",
+    "node-diff3": "^1.0.0"
   }
 }
