@@ -37,7 +37,7 @@ class Conflicter {
     let res = ''
     switch (mode) {
       case 'Overwrite':
-        res = diff.patch(this.textBefore, diff.diffPatch(this.textBefore, this.textAfter)).join('')
+        res = this.textAfter
         break
       case 'Oldtext':
         res = this.textBefore
