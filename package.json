@@ -11,6 +11,10 @@
     "34678"
   ],
   "license": "MIT",
+  "scripts": {
+    "preinstall": "bash scripts/check-yarn.sh",
+    "commit": "git cz"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
